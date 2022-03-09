@@ -1,0 +1,32 @@
+.heroSection {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    transform: translateY(-100%);
+    margin-bottom: -100vh;
+}
+
+.hero-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-btns {
+    display: flex;
+    flex-direction: column;
+}
+.heroVid {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.hero-wrap2 {
+    margin-bottom: 24px;
+    height: 100vh;
+}

@@ -1,0 +1,46 @@
+.btn {
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    background-color: #fff;
+    color: black;
+    transition: all ease 0.3s;
+}
+
+.medium {
+    box-sizing: border-box;
+    min-width: 96px;
+    height: 36px;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+}
+
+.large {
+    height: 40px;
+    min-width: 160px;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    align-items: center;
+    line-height: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0px 2px #ccc;
+    display: inline-block;
+}
+
+.large + .large {
+    margin-top: 12px;
+}
+.primary {
+    background-color: #fff;
+    /* color: black; */
+    border: none;
+}
+
+.outline {
+    color: #fff;
+    border: 2px solid #ccc;
+}

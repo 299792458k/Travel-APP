@@ -1,0 +1,41 @@
+.cards-filter {
+    display: flex;
+    margin: 0 0 24px 50px;
+    align-items: center;
+}
+
+.filter-icon {
+    color: black;
+    height: 24px;
+    width: 24px;
+    display: block;
+}
+
+.filter-item {
+    min-width: 96px;
+    cursor: pointer;
+    box-shadow: 0 0 2px #ccc;
+    margin-right: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    height: 36px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    position: relative;
+}
+
+.filter-item a{
+    inset: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-item:hover {
+    background-color: aqua;
+}
+
+.active {
+    color: red;
+}
